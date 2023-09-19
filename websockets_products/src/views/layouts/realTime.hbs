@@ -1,0 +1,16 @@
+<h1>Productos</h1>
+<ul id="productList"></ul>
+
+<h2>Crear producto:</h2>
+<form id="createForm">
+    <input type="text" placeholder="Nombre del producto" name="title"/>
+    <input type="text" placeholder="categoría(físico, digital o físico/digital) del producto" name="category"/>
+    <input type="text" placeholder="Género del producto" name="limit"/>
+    <input type="number" placeholder="Precio del producto" name="price"/>
+    <input type="number" placeholder="cantidad del producto" name="stock"/>
+    <button type="submit">Crear producto</button>
+
+</form>
+
+<script src="/websockets_products/node_modules/socket.io/client-dist/socket.io.js"></script>
+<script src="/websockets_products/src/public/realTime.js"></script>
